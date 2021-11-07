@@ -24,7 +24,7 @@ FROM gradle:6.8-jdk11
 WORKDIR /opt/test-runner
 
 # Copy binary and launcher script
-COPY bin/run.sh bin/run.sh
+COPY bin/run.sh bin/run.sh bin/run-tests.sh bin/run-tests-in-docker.sh /opt/test-runner/bin/
 COPY --from=build /home/builder/autotest-runner.jar ./
 
 # Copy cached dependencies
