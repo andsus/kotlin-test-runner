@@ -1,0 +1,48 @@
+{
+  "status": "fail",
+  "message": "",
+  "tests": [
+    {
+      "name": "single letter identical strands",
+      "status": "fail",
+      "message": "java.lang.AssertionError: expected:<0> but was:<1>",
+      "output": ""
+    },
+    {
+      "name": "empty strands",
+      "status": "pass",
+      "message": "",
+      "output": ""
+    },
+    {
+      "name": "long different strands",
+      "status": "fail",
+      "message": "java.lang.AssertionError: expected:<9> but was:<3>",
+      "output": ""
+    },
+    {
+      "name": "disallow first strand longer",
+      "status": "pass",
+      "message": "",
+      "output": ""
+    },
+    {
+      "name": "long identical strands",
+      "status": "fail",
+      "message": "java.lang.AssertionError: expected:<0> but was:<13>",
+      "output": ""
+    },
+    {
+      "name": "disallow second strand longer",
+      "status": "pass",
+      "message": "",
+      "output": ""
+    },
+    {
+      "name": "single letter different strands",
+      "status": "fail",
+      "message": "java.lang.AssertionError: expected:<1> but was:<0>",
+      "output": ""
+    }
+  ]
+}

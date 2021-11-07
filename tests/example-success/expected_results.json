@@ -1,0 +1,48 @@
+{
+  "status": "pass",
+  "message": "",
+  "tests": [
+    {
+      "name": "single letter identical strands",
+      "status": "pass",
+      "message": "",
+      "output": ""
+    },
+    {
+      "name": "empty strands",
+      "status": "pass",
+      "message": "",
+      "output": ""
+    },
+    {
+      "name": "long different strands",
+      "status": "pass",
+      "message": "",
+      "output": ""
+    },
+    {
+      "name": "disallow first strand longer",
+      "status": "pass",
+      "message": "",
+      "output": ""
+    },
+    {
+      "name": "long identical strands",
+      "status": "pass",
+      "message": "",
+      "output": ""
+    },
+    {
+      "name": "disallow second strand longer",
+      "status": "pass",
+      "message": "",
+      "output": ""
+    },
+    {
+      "name": "single letter different strands",
+      "status": "pass",
+      "message": "",
+      "output": ""
+    }
+  ]
+}

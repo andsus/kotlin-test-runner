@@ -1,0 +1,48 @@
+{
+  "status": "fail",
+  "message": "",
+  "tests": [
+    {
+      "name": "single letter identical strands",
+      "status": "fail",
+      "message": "java.lang.IllegalArgumentException: left and right strands must be of equal length",
+      "output": ""
+    },
+    {
+      "name": "empty strands",
+      "status": "fail",
+      "message": "java.lang.IllegalArgumentException: left and right strands must be of equal length",
+      "output": ""
+    },
+    {
+      "name": "long different strands",
+      "status": "fail",
+      "message": "java.lang.IllegalArgumentException: left and right strands must be of equal length",
+      "output": ""
+    },
+    {
+      "name": "disallow first strand longer",
+      "status": "fail",
+      "message": "java.lang.AssertionError: Expected test to throw (an instance of java.lang.IllegalArgumentException and exception with message a string containing \"left and right strands must be of equal length\")",
+      "output": ""
+    },
+    {
+      "name": "long identical strands",
+      "status": "fail",
+      "message": "java.lang.IllegalArgumentException: left and right strands must be of equal length",
+      "output": ""
+    },
+    {
+      "name": "disallow second strand longer",
+      "status": "fail",
+      "message": "java.lang.AssertionError: Expected test to throw (an instance of java.lang.IllegalArgumentException and exception with message a string containing \"left and right strands must be of equal length\")",
+      "output": ""
+    },
+    {
+      "name": "single letter different strands",
+      "status": "fail",
+      "message": "java.lang.IllegalArgumentException: left and right strands must be of equal length",
+      "output": ""
+    }
+  ]
+}
